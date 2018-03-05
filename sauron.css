@@ -13,6 +13,7 @@ font-style: normal;
 h2  /* Utilisation de la police qu'on vient de définir sur les titres */
 {
     font-family: 'anirm', Arial, serif;
+    font-size: 2em;
 }
 
 /* NAVBAR
@@ -23,7 +24,7 @@ h2  /* Utilisation de la police qu'on vient de définir sur les titres */
 {
     background-color: rgb(235,107,45);
     border-color: rgb(235,107,45);
-    font-family: 'anirm___', Arial, serif;
+    font-family: 'anirm', Arial, serif;
 }
 
 .navbar-nav a {
@@ -52,7 +53,7 @@ nav ul li:hover
 
 .carousel-caption {
   bottom: 30%;
-  font-family: 'anirm___', Arial, serif;
+  font-family: 'anirm', Arial, serif;
 
 }
 
@@ -75,13 +76,17 @@ nav ul li:hover
 
 .nav-link 
 {
- color: rgba(48,48,48,1);
+ color: rgba(211,211,211,40);
  margin: 5em;
 font-weight: bold;
-font-family: 'anirm___', Arial, serif;
+font-family: 'anirm', Arial, serif;
 }
 
 
+.symbol-nav
+{
+text-decoration: underline;
+}
 /* VIGNETTE
 -------------------------------------------------- */
 
@@ -90,6 +95,7 @@ font-family: 'anirm___', Arial, serif;
 span  
 {
   color: #FF8C00;  
+
 }
 
 
@@ -104,7 +110,7 @@ span
 
 .thumbnail
 {
-position: absolute;  
+
 width: 90%;
 height: 90%;
 margin: 0;
@@ -124,6 +130,7 @@ background-color: black !important;
  z-index:1;
  transition: .6s ease;
  opacity: .5; 
+ border: 5px solid black;
 
 
 }
@@ -135,7 +142,7 @@ background-color: black !important;
   position: absolute; 
   width:300px;
   height:80px;
-  left: 20px;
+  left: 60px;
   top: 20px;
   right: 32px;  
   padding: 0;   
@@ -154,7 +161,7 @@ background-color: black !important;
   color: black;
   margin: 10px 52px 10px 40px;
   z-index:3;
-  font-family: 'anirm___', Arial, serif;
+  font-family: 'anirm', Arial, serif;
 }
 
 /* Gandalf */
@@ -189,7 +196,7 @@ background-color: black !important;
 {  
   color: grey;
   background-color: black;
-  font-family: 'anirm___', Arial, serif;
+  font-family: 'anirm', Arial, serif;
 
 }
 
