@@ -1,0 +1,211 @@
+
+
+ 
+
+
+@font-face {
+font-family: 'anirm___';
+src: url('anirm___.ttf');
+font-style: normal;
+}
+
+
+h2  /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'anirm___', Arial, serif;
+}
+
+/* NAVBAR
+-------------------------------------------------- */
+
+
+.navbar-fixed-top
+{
+    background-color: rgb(235,107,45);
+    border-color: rgb(235,107,45);
+    font-family: 'anirm___', Arial, serif;
+}
+
+.navbar-nav a {
+    color: white !important;
+}
+
+li 
+{
+  color: white;
+}
+
+nav ul li:hover 
+{
+  text-decoration: underline;
+}
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+/* le texte au centre */
+
+.carousel-caption {
+  bottom: 30%;
+  font-family: 'anirm___', Arial, serif;
+
+}
+
+.carousel .item {
+  height: 500px;
+  background-color: white;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* PILLS
+-------------------------------------------------- */
+
+.nav-link 
+{
+ color: rgba(48,48,48,1);
+ margin: 5em;
+font-weight: bold;
+font-family: 'anirm___', Arial, serif;
+}
+
+
+/* VIGNETTE
+-------------------------------------------------- */
+
+
+
+span  
+{
+  color: #FF8C00;  
+}
+
+
+.fellow
+{
+  text-align: center;
+
+}
+
+
+/* Les vignettes */
+
+.thumbnail
+{
+position: absolute;  
+width: 90%;
+height: 90%;
+margin: 0;
+padding: 0;
+background-color: black !important;
+}
+
+
+/* Image de la vignette */
+
+.thumbnail img
+{
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ z-index:1;
+ transition: .6s ease;
+ opacity: .5; 
+
+
+}
+
+
+/* Reward : encadré blanc aux bords arrondis*/
+.reward  
+{
+  position: absolute; 
+  width:300px;
+  height:80px;
+  left: 20px;
+  top: 20px;
+  right: 32px;  
+  padding: 0;   
+  border-radius: 5px;  
+  background-color:rgba(255, 255, 255, 0.7);
+  transition: .5s ease;
+  z-index:2;
+
+}
+
+
+/* txt dans l'encadré blanc */
+.reward p 
+{
+  font-size: 0,5em; 
+  color: black;
+  margin: 10px 52px 10px 40px;
+  z-index:3;
+  font-family: 'anirm___', Arial, serif;
+}
+
+/* Gandalf */
+
+.surname 
+{   
+  font-size: 3em;
+  font-weight: bold;
+  color: white; 
+  position: absolute; 
+  left: 85px;
+  top: 200px;
+  right: 10px;  
+  padding: 0;    
+  z-index:4;
+}
+
+
+/* Les encadrés noirs */
+
+
+.caption
+{  
+  background-color: black;
+
+}
+
+
+/* Le texte des encadrés noirs */
+
+.caption p 
+{  
+  color: grey;
+  background-color: black;
+  font-family: 'anirm___', Arial, serif;
+
+}
+
+/* Opacité des vignettes */
+
+.thumbnail img:hover {
+    opacity: 1;
+    transition: 2s;
+}
+
+.box:hover .reward {
+    display: none;
+
+}
+
+.box:hover .surname {
+    display: none;
+
+}
