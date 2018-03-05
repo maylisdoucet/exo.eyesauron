@@ -4,15 +4,15 @@
 
 
 @font-face {
-font-family: 'anirm___';
-src: url('anirm___.ttf');
+font-family: 'anirm';
+src: url('anirm.ttf');
 font-style: normal;
 }
 
 
 h2  /* Utilisation de la police qu'on vient de définir sur les titres */
 {
-    font-family: 'anirm___', Arial, serif;
+    font-family: 'anirm', Arial, serif;
 }
 
 /* NAVBAR
