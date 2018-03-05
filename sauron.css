@@ -9,6 +9,18 @@ src: url('anirm.ttf');
 font-style: normal;
 }
 
+@font-face {
+font-family: 'partybusiness';
+src: url('partybusiness.ttf');
+font-style: normal;
+}
+
+@font-face {
+font-family: 'tengwarc';
+src: url('tengwarc.ttf');
+font-style: normal;
+}
+
 
 h2  /* Utilisation de la police qu'on vient de définir sur les titres */
 {
@@ -53,7 +65,8 @@ nav ul li:hover
 
 .carousel-caption {
   bottom: 30%;
-  font-family: 'anirm', Arial, serif;
+  font-family: 'partybusiness', Arial, serif;
+  font-size: 3em;
 
 }
 
@@ -87,6 +100,16 @@ font-family: 'anirm', Arial, serif;
 {
 text-decoration: underline;
 }
+
+
+.nav-link > a:hover,.nav-pills > li > a:hover 
+{
+border-bottom-width: 4px;
+border-bottom-style: solid;
+color: #ff5f01;
+background: white;
+}
+
 /* VIGNETTE
 -------------------------------------------------- */
 
@@ -140,11 +163,11 @@ background-color: black !important;
 .reward  
 {
   position: absolute; 
-  width:300px;
-  height:80px;
-  left: 60px;
+  width:320px;
+  height:100px;
+  left: 50px;
   top: 20px;
-  right: 32px;  
+  right: 50px;  
   padding: 0;   
   border-radius: 5px;  
   background-color:rgba(255, 255, 255, 0.7);
@@ -157,11 +180,12 @@ background-color: black !important;
 /* txt dans l'encadré blanc */
 .reward p 
 {
-  font-size: 0,5em; 
+  font-size: 2em; 
   color: black;
-  margin: 10px 52px 10px 40px;
+  margin: 10px 50px 20px 40px;
   z-index:3;
-  font-family: 'anirm', Arial, serif;
+  object-position: center;
+  font-family: 'partybusiness', Arial, serif;
 }
 
 /* Gandalf */
@@ -169,14 +193,14 @@ background-color: black !important;
 .surname 
 {   
   font-size: 3em;
-  font-weight: bold;
   color: white; 
   position: absolute; 
-  left: 85px;
+  left: 130px;
   top: 200px;
   right: 10px;  
   padding: 0;    
   z-index:4;
+  font-family: 'partybusiness', Arial, serif;
 }
 
 
@@ -196,7 +220,8 @@ background-color: black !important;
 {  
   color: grey;
   background-color: black;
-  font-family: 'anirm', Arial, serif;
+  font-family: 'partybusiness', Arial, serif;
+  font-size: 2em;
 
 }
 
@@ -216,3 +241,14 @@ background-color: black !important;
     display: none;
 
 }
+
+.dead
+{
+  font-family: 'anirm', Arial, serif;
+  position: absolute; 
+  color: orange; 
+  padding-top: 40px;
+  left:90px;
+  font-size: 3em;
+  margin: 10px 50px 20px 40px;
+  }
